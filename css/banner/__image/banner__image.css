@@ -1,0 +1,16 @@
+.banner__image {
+    display: none;
+}
+
+.banner__image img {
+    width: 100%;
+    height: auto;
+}
+
+@media(min-width: 960px) {
+    .banner__image {
+        flex-basis: 50%;
+        display: block;
+        margin: 0 0 0 20px;
+    }
+}

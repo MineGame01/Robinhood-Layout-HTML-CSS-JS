@@ -1,0 +1,36 @@
+.products__sidebar {
+    margin: 20px 0 0 0;
+}
+
+.products__sidebar ul li button {
+    font-size: 1.438rem;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.23999999463558197px;
+    text-align: left;
+    transition: color 0.2s ease;
+    cursor: pointer;
+}
+
+.products__sidebar ul li:last-of-type button::after {
+    content: "Crypto";
+    position: absolute;
+    right: -90px;
+    color: #FF90AF;
+}
+
+.products__sidebar ul li:last-of-type button {
+    position: relative;
+    padding: 0 20px 0 0;
+    border-right: 2px solid black;
+}
+
+@media(min-width: 960px) {
+    .products__sidebar ul {
+        display: flex;
+    }
+    .products__sidebar ul li {
+        margin: 0 0 0 30px;
+    }
+    .products__sidebar ul li:first-of-type { margin: 0; }
+}

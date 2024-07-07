@@ -1,0 +1,24 @@
+.footer__list {
+    padding: 20px 0 0 0;
+    text-align: center;
+    grid-area: list;
+}
+
+.footer__list ul li {
+    line-height: 40px;
+}
+
+.footer__list ul li a {
+    font-size: 1.063rem;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    color: white;
+}
+
+@media(min-width: 960px) {
+    .footer__list {
+        display: flex;
+        justify-content: space-between;
+        text-align: start;
+    }
+}

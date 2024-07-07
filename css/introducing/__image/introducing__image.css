@@ -1,0 +1,16 @@
+.introducing__image {
+    display: none;
+}
+
+@media(min-width: 960px) {
+    .introducing__image {
+        display: flex;
+        align-items: center;
+        grid-area: image;
+    }
+    .introducing__image img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
+}

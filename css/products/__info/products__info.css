@@ -1,0 +1,11 @@
+.products__info {
+    display: grid;
+    height: 100%;
+}
+
+@media(min-width: 960px) {
+    .products__info {
+        grid-template-columns: 1.2fr 1fr;
+        grid-template-rows: 1fr;
+    }
+}

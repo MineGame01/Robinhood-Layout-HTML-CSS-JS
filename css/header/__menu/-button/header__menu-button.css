@@ -1,0 +1,9 @@
+.header__menu-button {
+    position: relative;
+    margin-left: 70px;
+    font-size: 1.2rem;
+}
+
+.header__menu-button:first-of-type {
+    margin-left: 0;
+}

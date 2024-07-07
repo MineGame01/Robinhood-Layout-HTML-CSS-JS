@@ -1,0 +1,10 @@
+.learn__next-btn {
+    background: none;
+    transform: rotate(90deg);
+}
+
+@media(min-width: 960px) {
+    .learn__next-btn {
+        transform: rotate(-180deg);
+    }
+}

@@ -1,0 +1,36 @@
+:root {
+    --banner-bg: #C3F53C;
+    --text-color: #6F787E;
+}
+
+.container {
+    position: relative;
+    max-width: 500px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.container_content {
+    padding: 0 20px;
+}
+
+@media(min-width: 768px) {
+    .container {
+        max-width: 1000px;
+    }
+}
+
+@media(min-width: 960px) {
+    .container {
+        max-width: 1100px;
+    }
+    .container_content {
+        padding: 0 50px;
+    }
+}
+
+@media(min-width: 1140px) {
+    .container {
+        max-width: 1200px;
+    }
+}

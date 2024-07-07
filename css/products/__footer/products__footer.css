@@ -1,0 +1,10 @@
+.products__footer {
+    padding: 50px 0;
+}
+
+@media(min-width: 960px) {
+    .products__footer {
+        display: flex;
+        justify-content: space-between;
+    }
+}

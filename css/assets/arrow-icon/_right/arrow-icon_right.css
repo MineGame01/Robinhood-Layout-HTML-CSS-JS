@@ -1,0 +1,8 @@
+.arrow-icon_right::after {
+    content: "";
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    margin: 0 0 0 5px;
+    background: url("../../../../assets/arrow-icon/_right/arrow-icon_right.svg") 0 0 no-repeat;
+}

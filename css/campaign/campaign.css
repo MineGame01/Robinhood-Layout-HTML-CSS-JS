@@ -1,0 +1,11 @@
+.campaign {
+    border-bottom: 1px solid black;
+}
+
+@media(min-width: 960px) {
+    .campaign-wrapper {
+        display: grid;
+        grid-template-columns: 2fr 1.5fr;
+        
+    }
+}

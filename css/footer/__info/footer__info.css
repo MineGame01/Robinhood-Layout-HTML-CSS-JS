@@ -1,0 +1,13 @@
+.footer__info {
+    padding: 0 0 30px 0;
+    border-top: 1px solid #79858B;
+    grid-area: info;
+}
+
+.footer__info span {
+    display: block;
+    margin: 30px 0 0 0;
+    font-size: 0.938rem;
+    font-weight: 400;
+    letter-spacing: 0.10000000149011612px;
+}

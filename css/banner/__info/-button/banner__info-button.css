@@ -1,0 +1,9 @@
+.banner__info-button {
+    margin: 30px 0 0 0;
+}
+
+@media(min-width: 960px) {
+    .banner__info-button {
+        max-width: 200px;
+    }
+}

@@ -1,0 +1,11 @@
+.banner {
+    background: var(--banner-bg);
+}
+
+@media(min-width: 960px) {
+    .banner-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

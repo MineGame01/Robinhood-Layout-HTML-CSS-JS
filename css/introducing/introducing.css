@@ -1,0 +1,14 @@
+.introducing {
+    
+}
+
+@media(min-width: 960px) {
+    .introducing-wrapper {
+        display: grid;
+        grid-template-areas: 
+        "info image"
+        "list image"
+        "alert image"
+        ;
+    }    
+}

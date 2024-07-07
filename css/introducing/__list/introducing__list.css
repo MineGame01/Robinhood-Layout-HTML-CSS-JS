@@ -1,0 +1,11 @@
+.introducing__list {
+    margin: 40px 0 0 0;
+}
+
+@media(min-width: 960px) {
+    .introducing__list {
+        display: flex;
+        max-width: 800px;
+        grid-area: list;
+    }
+}

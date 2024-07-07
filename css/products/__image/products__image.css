@@ -1,0 +1,17 @@
+.products__image {
+    display: none;
+    margin: 60px 0 0 0;
+    width: 100%;
+}
+
+.products__image img {
+    width: 100%;
+    height: auto;
+}
+
+@media(min-width: 960px) {
+    .products__image {
+        display: flex;
+        align-items: center;
+    }
+}

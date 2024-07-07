@@ -1,0 +1,11 @@
+.campaign__info {
+    margin: 20px 0 30px 10px;
+}
+
+@media(min-width: 960px) {
+    .campaign__info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,10 @@
+.products__learn-btn {
+    margin: 50px 0 0 0;
+    padding: 6px 0;
+}
+
+@media(min-width: 960px) {
+    .products__learn-btn {
+        max-width: 164px;
+    }
+}

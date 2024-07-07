@@ -1,0 +1,8 @@
+.footer__subcribe-button {
+    position: absolute;
+    top: 50%;
+    right: 90px;
+    max-width: 155px;
+    padding: 3px 7px;
+    transform: translate(50%, -50%);
+}

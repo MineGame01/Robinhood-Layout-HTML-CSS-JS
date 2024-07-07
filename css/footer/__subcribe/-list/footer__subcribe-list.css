@@ -1,0 +1,20 @@
+.footer__subcribe-list {
+    margin: 10px 0 0 0;
+}
+
+.footer__subcribe-list li {
+    text-align: right;
+}
+
+.footer__subcribe-list li a {
+    font-size: 0.8rem;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    color: white;
+}
+
+@media(min-width: 768px) {
+    .footer__subcribe-list li a {
+        font-size: 1.125rem;
+    }
+}

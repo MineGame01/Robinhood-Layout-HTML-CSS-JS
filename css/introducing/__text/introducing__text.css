@@ -1,0 +1,7 @@
+.introducing__text {
+    font-size: 1.063rem;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    color: var(--text-color);
+}

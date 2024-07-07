@@ -1,0 +1,15 @@
+.header__open-menu {
+    background: none;
+    cursor: pointer;
+}
+
+.header__open-menu img {
+    width: 40px;
+    height: auto;
+}
+
+@media(min-width: 960px) {
+    .header__open-menu {
+        display: none;
+    }
+}

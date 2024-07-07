@@ -1,0 +1,16 @@
+.footer__subcribe-logo {
+    display: none;
+    max-width: 124px;
+    margin: 30px 0 0 0;
+}
+
+.footer__subcribe-logo img {
+    width: 100%;
+    height: auto;
+}
+
+@media(min-width: 960px) {
+    .footer__subcribe-logo {
+        display: block;
+    }
+}

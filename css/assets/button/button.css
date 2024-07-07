@@ -1,0 +1,10 @@
+.button {
+    width: 100%;
+    padding: 15px 45px;
+    font-size: 1rem;
+    font-weight: 500;
+    text-wrap: nowrap;
+    background: none;
+    border-radius: 24px;
+    cursor: pointer;
+}

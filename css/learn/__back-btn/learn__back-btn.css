@@ -1,0 +1,10 @@
+.learn__back-btn {
+    background: none;
+    transform: rotate(-90deg);
+}
+
+@media(min-width: 960px) {
+    .learn__back-btn {
+        transform: rotate(0deg);
+    }
+}

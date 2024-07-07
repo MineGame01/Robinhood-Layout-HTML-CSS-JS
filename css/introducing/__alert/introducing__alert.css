@@ -1,0 +1,5 @@
+.introducing__alert {
+    grid-area: alert;
+    margin: 40px 0 30px 0;
+    opacity: 50%;
+}

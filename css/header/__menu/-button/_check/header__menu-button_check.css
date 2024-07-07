@@ -1,0 +1,9 @@
+.header__menu-button_check::after {
+    content: "";
+    position: absolute;
+    margin: 0 0 0 5px;
+    top: 37%;
+    width: 12px;
+    height: 8px;
+    background: url("../../../../../assets/header/__menu/-button/_check/header__menu-button_check.svg") no-repeat;
+}

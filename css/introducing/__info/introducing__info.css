@@ -1,0 +1,10 @@
+.introducing__info {
+    text-align: center;
+}
+
+@media(min-width: 960px) {
+    .introducing__info {
+        text-align: left;
+        grid-area: info;
+    }
+}

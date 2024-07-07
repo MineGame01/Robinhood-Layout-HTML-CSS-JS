@@ -1,0 +1,14 @@
+.footer {
+    color: white;
+    background-color: #000000;
+}
+
+@media(min-width: 960px) {
+    .footer-wrapper {
+        display: grid;
+        grid-template-areas: 
+        "list auto subcribe"
+        "info info info";
+        grid-template-columns: 1fr 100px 1fr;
+    }
+}

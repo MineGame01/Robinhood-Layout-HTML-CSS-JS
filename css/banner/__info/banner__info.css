@@ -1,0 +1,10 @@
+.banner__info {
+    padding: 70px 0;
+}
+
+
+@media(min-width: 960px) {
+    .banner__info {
+        flex-basis: 50%;
+    }
+}
